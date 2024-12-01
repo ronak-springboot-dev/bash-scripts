@@ -1,0 +1,10 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: Simple s3 bucket template   
+Resources:
+  S3Bucket:
+      Type: AWS::S3::Bucket
+      DeletionPolicy: Retain
+      Properties: 
+        BucketName: cfn-bucket-ronak-another
+  # EC2: 
+    # Type: AWS::EC
